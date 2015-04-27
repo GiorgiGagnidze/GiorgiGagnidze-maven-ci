@@ -19,7 +19,7 @@ public class Main {
 	 * @param maxAmount maximum amount of money
 	 * @return generated double
 	 */
-	private static double todaysWin(Random random,int maxAmount){
+	public static double todaysWin(Random random,int maxAmount){
 		return maxAmount*random.nextDouble();
 	}
 	
@@ -29,7 +29,7 @@ public class Main {
 	 * @param amount
 	 * @return returns real amount of money, which user will get.
 	 */
-	private static int cutValueAddedTax(double amount){
+	public static int cutValueAddedTax(double amount){
 		return (int)(amount - amount*0.2);
 	}
 }
