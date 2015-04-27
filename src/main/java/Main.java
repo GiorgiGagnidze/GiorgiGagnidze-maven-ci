@@ -1,7 +1,7 @@
 import java.util.Random;
 
 /**
- * Hello World program.
+ * Hello World program. Program says that user wins 0 to 800 $.
  * @author Giorgi Gagnidze
  */
 public class Main {
